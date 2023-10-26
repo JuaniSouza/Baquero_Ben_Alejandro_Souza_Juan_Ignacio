@@ -1,4 +1,4 @@
 package com.backend.parcial.model;
 
-public class modelo {
+public class modelo1 {
 }
