@@ -1,44 +1,24 @@
 package com.backend.parcial.model;
 
+import java.security.PrivateKey;
+
 public class Odontologo {
-    private int id;
-    private int codigo;
-    private String nombre;
-    private String laboratorio;
-    private int cantidad;
-    private double precio;
+private int numeroMatricula;
+private String nombre;
+private String apellido;
 
-    public Odontologo(int id, int codigo, String nombre, String laboratorio, int cantidad, double precio) {
-        this.id = id;
-        this.codigo = codigo;
+    public Odontologo(int numeroMatricula, String nombre, String apellido) {
+        this.numeroMatricula = numeroMatricula;
         this.nombre = nombre;
-        this.laboratorio = laboratorio;
-        this.cantidad = cantidad;
-        this.precio = precio;
+        this.apellido = apellido;
     }
 
-    public Odontologo(int codigo, String nombre, String laboratorio, int cantidad, double precio) {
-        this.codigo = codigo;
-        this.nombre = nombre;
-        this.laboratorio = laboratorio;
-        this.cantidad = cantidad;
-        this.precio = precio;
+    public int getNumeroMatricula() {
+        return numeroMatricula;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public int getCodigo() {
-        return codigo;
-    }
-
-    public void setCodigo(int codigo) {
-        this.codigo = codigo;
+    public void setNumeroMatricula(int numeroMatricula) {
+        this.numeroMatricula = numeroMatricula;
     }
 
     public String getNombre() {
@@ -49,32 +29,12 @@ public class Odontologo {
         this.nombre = nombre;
     }
 
-    public String getLaboratorio() {
-        return laboratorio;
+    public String getApellido() {
+        return apellido;
     }
 
-    public void setLaboratorio(String laboratorio) {
-        this.laboratorio = laboratorio;
-    }
-
-    public int getCantidad() {
-        return cantidad;
-    }
-
-    public void setCantidad(int cantidad) {
-        this.cantidad = cantidad;
-    }
-
-    public double getPrecio() {
-        return precio;
-    }
-
-    public void setPrecio(double precio) {
-        this.precio = precio;
-    }
-
-    @Override
-    public String toString() {
-        return "\nId: " + id + " - Codigo: " + codigo + " - Nombre: " + nombre + " - Laboratorio: " + laboratorio + " - Cantidad: " + cantidad + " - Precio: $" + precio;
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
     }
 }
+
