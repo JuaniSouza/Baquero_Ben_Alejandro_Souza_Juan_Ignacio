@@ -1,6 +1,6 @@
 package com.backend.parcial.model;
 
-public class Model1 {
+public class Odontologo {
     private int id;
     private int codigo;
     private String nombre;
@@ -8,7 +8,7 @@ public class Model1 {
     private int cantidad;
     private double precio;
 
-    public Model1(int id, int codigo, String nombre, String laboratorio, int cantidad, double precio) {
+    public Odontologo(int id, int codigo, String nombre, String laboratorio, int cantidad, double precio) {
         this.id = id;
         this.codigo = codigo;
         this.nombre = nombre;
@@ -17,7 +17,7 @@ public class Model1 {
         this.precio = precio;
     }
 
-    public Model1(int codigo, String nombre, String laboratorio, int cantidad, double precio) {
+    public Odontologo(int codigo, String nombre, String laboratorio, int cantidad, double precio) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.laboratorio = laboratorio;

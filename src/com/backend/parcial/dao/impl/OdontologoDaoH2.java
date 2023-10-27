@@ -1,9 +1,9 @@
 package com.backend.parcial.dao.impl;
 
 import com.backend.parcial.dao.IDao;
-import com.backend.parcial.model.Model1;
+import com.backend.parcial.model.Odontologo;
 
-public class Model1DaoH2 implements IDao<Model1> {
+public class OdontologoDaoH2 implements IDao<Odontologo> {
 }
 
 /*      @Override
