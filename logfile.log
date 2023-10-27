@@ -1,0 +1,25 @@
+[2023-10-2622:54:36] [ ERROR] [OdontologoDaoH2:39] Column "NUMERODEMATRICULA" not found; SQL statement:
+INSERT INTO ODONTOLOGO(NUMERODEMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42122-224]
+[2023-10-2622:54:36] [ INFO ] [OdontologoDaoH2:44] Tuvimos un problema
+[2023-10-2622:54:36] [ ERROR] [OdontologoDaoH2:45] Column "NUMERODEMATRICULA" not found; SQL statement:
+INSERT INTO ODONTOLOGO(NUMERODEMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42122-224]
+[2023-10-2622:55:59] [ ERROR] [OdontologoDaoH2:39] Data conversion error converting "'Rodriguez' (ODONTOLOGO: ""APELLIDO"" INTEGER NOT NULL)"; SQL statement:
+INSERT INTO ODONTOLOGO(NUMERODEMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [22018-224]
+[2023-10-2622:55:59] [ INFO ] [OdontologoDaoH2:44] Tuvimos un problema
+[2023-10-2622:55:59] [ ERROR] [OdontologoDaoH2:45] Data conversion error converting "'Rodriguez' (ODONTOLOGO: ""APELLIDO"" INTEGER NOT NULL)"; SQL statement:
+INSERT INTO ODONTOLOGO(NUMERODEMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [22018-224]
+[2023-10-2622:58:56] [ ERROR] [OdontologoDaoH2:39] Data conversion error converting "'Rodriguez' (ODONTOLOGO: ""APELLIDO"" INTEGER NOT NULL)"; SQL statement:
+INSERT INTO ODONTOLOGO(NUMERODEMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [22018-224]
+[2023-10-2622:58:56] [ INFO ] [OdontologoDaoH2:44] Tuvimos un problema
+[2023-10-2622:58:56] [ ERROR] [OdontologoDaoH2:45] Data conversion error converting "'Rodriguez' (ODONTOLOGO: ""APELLIDO"" INTEGER NOT NULL)"; SQL statement:
+INSERT INTO ODONTOLOGO(NUMERODEMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [22018-224]
+[2023-10-2622:59:27] [ ERROR] [OdontologoDaoH2:39] Data conversion error converting "'Rodriguez' (ODONTOLOGO: ""APELLIDO"" INTEGER NOT NULL)"; SQL statement:
+INSERT INTO ODONTOLOGO(NUMERODEMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [22018-224]
+[2023-10-2622:59:27] [ INFO ] [OdontologoDaoH2:44] Tuvimos un problema
+[2023-10-2622:59:27] [ ERROR] [OdontologoDaoH2:45] Data conversion error converting "'Rodriguez' (ODONTOLOGO: ""APELLIDO"" INTEGER NOT NULL)"; SQL statement:
+INSERT INTO ODONTOLOGO(NUMERODEMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [22018-224]
+[2023-10-2622:59:59] [ ERROR] [OdontologoDaoH2:39] Data conversion error converting "'Rodriguez' (ODONTOLOGO: ""APELLIDO"" INTEGER NOT NULL)"; SQL statement:
+INSERT INTO ODONTOLOGO(NUMERODEMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [22018-224]
+[2023-10-2622:59:59] [ INFO ] [OdontologoDaoH2:44] Tuvimos un problema
+[2023-10-2622:59:59] [ ERROR] [OdontologoDaoH2:45] Data conversion error converting "'Rodriguez' (ODONTOLOGO: ""APELLIDO"" INTEGER NOT NULL)"; SQL statement:
+INSERT INTO ODONTOLOGO(NUMERODEMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [22018-224]
