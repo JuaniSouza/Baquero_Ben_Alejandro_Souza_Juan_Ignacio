@@ -14,7 +14,6 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 
 public class OdontologoServiceTest {
 
-
     private OdontologoService odontologoService = new OdontologoService(new OdontologoDaoH2());
 
 
@@ -23,7 +22,7 @@ public class OdontologoServiceTest {
         Connection connection = null;
         try {
             Class.forName("org.h2.Driver");
-            connection = DriverManager.getConnection("jdbc:h2:~/parcial;INIT=RUNSCRIPT FROM 'create.sql'", "sa", "sa");
+            connection = DriverManager.getConnection("jdbc:h2:~/parcial;INIT=RUNSCRIPT FROM 'create1.sql'", "sa", "sa");
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -38,7 +37,7 @@ public class OdontologoServiceTest {
 
     @Test
     void deberiaAgregarUnOdontologo() {
-        Odontologo odontologo = new Odontologo(12345, "Gerardo", "Rodriguez");
+        Odontologo odontologo = new Odontologo(12345, "Gerardo", "Arias");
         Odontologo nuevoOdontologo = odontologoService.registrarOdontologo(odontologo);
         Assertions.assertTrue(nuevoOdontologo.getNumeroMatricula() != 0);
     }
