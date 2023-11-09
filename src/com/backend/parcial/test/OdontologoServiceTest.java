@@ -9,6 +9,7 @@ import org.junit.jupiter.api.Test;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
@@ -37,10 +38,17 @@ public class OdontologoServiceTest {
 
     @Test
     void deberiaAgregarUnOdontologo() {
-        Odontologo odontologo = new Odontologo(12345, "Gerardo", "Arias");
+        Odontologo odontologo = new Odontologo("12345", "Gerardo", "Arias");
         Odontologo nuevoOdontologo = odontologoService.registrarOdontologo(odontologo);
-        Assertions.assertTrue(nuevoOdontologo.getNumeroMatricula() != 0);
+        Assertions.assertTrue(nuevoOdontologo.getId() != 0);
     }
 
+
+    @Test
+    public void listarTodosLosOdontologos() {
+        List<Odontologo> odontologoList = odontologoService.listarOdontologo();
+        assertFalse(odontologoList.isEmpty());
+
+    }
 
 }

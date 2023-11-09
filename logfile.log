@@ -74,3 +74,42 @@ INSERT INTO ODONTOLOGO(NUMERODEMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [4210
 [2023-11-0720:56:22] [ ERROR] [OdontologoDaoH2:39] Invalid value "2" for parameter "columnIndex" [90008-224]
 [2023-11-0720:56:22] [ INFO ] [OdontologoDaoH2:44] Tuvimos un problema
 [2023-11-0720:56:22] [ ERROR] [OdontologoDaoH2:45] Invalid value "2" for parameter "columnIndex" [90008-224]
+[2023-11-0721:45:13] [ ERROR] [OdontologoDaoH2:39] Invalid value "2" for parameter "columnIndex" [90008-224]
+[2023-11-0721:45:13] [ INFO ] [OdontologoDaoH2:44] Tuvimos un problema
+[2023-11-0721:45:13] [ ERROR] [OdontologoDaoH2:45] Invalid value "2" for parameter "columnIndex" [90008-224]
+[2023-11-0721:47:39] [ ERROR] [OdontologoDaoH2:39] Invalid value "2" for parameter "columnIndex" [90008-224]
+[2023-11-0721:47:39] [ INFO ] [OdontologoDaoH2:44] Tuvimos un problema
+[2023-11-0721:47:39] [ ERROR] [OdontologoDaoH2:45] Invalid value "2" for parameter "columnIndex" [90008-224]
+[2023-11-0721:48:00] [ ERROR] [OdontologoDaoH2:39] Invalid value "2" for parameter "columnIndex" [90008-224]
+[2023-11-0721:48:00] [ INFO ] [OdontologoDaoH2:44] Tuvimos un problema
+[2023-11-0721:48:00] [ ERROR] [OdontologoDaoH2:45] Invalid value "2" for parameter "columnIndex" [90008-224]
+[2023-11-0722:09:51] [ INFO ] [OdontologoDaoH2:38] Se ha registrado el odontologo: Id: 2 - Nombre: Gerardo - Apellido: Arias - Matricula: 12345
+[2023-11-0722:09:53] [ INFO ] [OdontologoDaoH2:38] Se ha registrado el odontologo: Id: 2 - Nombre: Gerardo - Apellido: Arias - Matricula: 12345
+[2023-11-0722:10:52] [ INFO ] [OdontologoDaoH2:38] Se ha registrado el odontologo: Id: 2 - Nombre: Gerardo - Apellido: Arias - Matricula: 12345
+[2023-11-07 22:12:05] [ INFO ] [OdontologoDaoH2:38] Se ha registrado el odontologo: Id: 2 - Nombre: Gerardo - Apellido: Arias - Matricula: 12345
+[2023-11-07 22:12:19] [ INFO ] [OdontologoDaoH2:38] Se ha registrado el odontologo: Id: 2 - Nombre: Gerardo - Apellido: Arias - Matricula: 12345
+[2023-11-07 22:47:52] [ ERROR] [OdontologoDaoH2:86] Column "numeroMatricula" not found [42122-224]
+[2023-11-07 22:54:25] [ ERROR] [OdontologoDaoH2:86] Column "numeroMatricula" not found [42122-224]
+[2023-11-07 22:57:45] [ ERROR] [OdontologoDaoH2:86] Column "numeroMatricula" not found [42122-224]
+[2023-11-08 02:29:40] [ INFO ] [OdontologoDaoH2:83] Listado de odontologos obtenido: []
+[2023-11-08 02:30:01] [ INFO ] [OdontologoDaoH2:83] Listado de odontologos obtenido: [Id: 1 - Nombre: Gerardo - Apellido: Arias - Matricula: 1234]
+[2023-11-08 02:30:11] [ INFO ] [OdontologoDaoH2:83] Listado de odontologos obtenido: [Id: 1 - Nombre: Gerardo - Apellido: Arias - Matricula: 1234]
+[2023-11-08 02:30:12] [ ERROR] [OdontologoDaoH2:42] Column "NUMERODEMATRICULA" not found; SQL statement:
+INSERT INTO ODONTOLOGO(NUMERODEMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42122-224]
+[2023-11-08 02:30:12] [ INFO ] [OdontologoDaoH2:47] Tuvimos un problema
+[2023-11-08 02:30:12] [ ERROR] [OdontologoDaoH2:48] Column "NUMERODEMATRICULA" not found; SQL statement:
+INSERT INTO ODONTOLOGO(NUMERODEMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42122-224]
+[2023-11-08 02:31:36] [ INFO ] [OdontologoDaoH2:83] Listado de odontologos obtenido: [Id: 1 - Nombre: Gerardo - Apellido: Arias - Matricula: 1234]
+[2023-11-08 02:31:36] [ ERROR] [OdontologoDaoH2:42] Column "NUMERODEMATRICULA" not found; SQL statement:
+INSERT INTO ODONTOLOGO(NUMERODEMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42122-224]
+[2023-11-08 02:31:36] [ INFO ] [OdontologoDaoH2:47] Tuvimos un problema
+[2023-11-08 02:31:36] [ ERROR] [OdontologoDaoH2:48] Column "NUMERODEMATRICULA" not found; SQL statement:
+INSERT INTO ODONTOLOGO(NUMERODEMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42122-224]
+[2023-11-08 02:31:51] [ ERROR] [OdontologoDaoH2:42] Column "NUMERODEMATRICULA" not found; SQL statement:
+INSERT INTO ODONTOLOGO(NUMERODEMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42122-224]
+[2023-11-08 02:31:51] [ INFO ] [OdontologoDaoH2:47] Tuvimos un problema
+[2023-11-08 02:31:51] [ ERROR] [OdontologoDaoH2:48] Column "NUMERODEMATRICULA" not found; SQL statement:
+INSERT INTO ODONTOLOGO(NUMERODEMATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42122-224]
+[2023-11-08 02:33:31] [ INFO ] [OdontologoDaoH2:38] Se ha registrado el odontologo: Id: 2 - Nombre: Gerardo - Apellido: Arias - Matricula: 12345
+[2023-11-08 02:33:35] [ INFO ] [OdontologoDaoH2:83] Listado de odontologos obtenido: [Id: 1 - Nombre: Gerardo - Apellido: Arias - Matricula: 1234]
+[2023-11-08 02:33:35] [ INFO ] [OdontologoDaoH2:38] Se ha registrado el odontologo: Id: 2 - Nombre: Gerardo - Apellido: Arias - Matricula: 12345
